@@ -1,0 +1,79 @@
+----Query 1 Display the revenue generated per square feet...
+--Output of query 1
+REVENUE_PER_SQ_FT
+-----------------
+       6.61421875
+
+
+-----Query 2 Determine which employee processed the highest rent payments.
+
+--Output of query 2
+FIRST_NAME
+--------------------
+Ajrun
+
+
+
+-----Query 3 Determine which apartment type generated the highest revenue.
+--Output of query 3
+    APT_NO    REVENUE
+---------- ----------
+       422      76079
+
+
+-----Query 4 Determine which type of utility has the highest consumption cost.
+--Output of query 4
+U_TYPE          COST_OF_UTILITY
+--------------- ---------------
+Electricity             10691.8
+
+
+--------Query 5 Determine what type of apartments the residents prefer the most.
+--Output of query 5
+TYPE
+-----
+4BHK
+
+
+--------Query 6 Determine if the resident prefer furnished apartments or unfurnished also the number of tenants for the option.
+--Output of query 6
+TYPE            NUMBER_OF_TENANTS
+--------------- -----------------
+furnished                      25
+
+
+
+--------Query 7 Determine the number of residents on each floor.
+--Output of query 7
+  FLOOR_NO NUMBER_OF_RESIDENTS
+---------- -------------------
+         0                   8
+         1                   5
+         2                  12
+
+
+
+--------Query 8 Determine the total number of furnished or unfurnished apartments on the whole property
+
+
+--Output of query 8
+4 rows updated.
+
+SQL> SQL> SQL> SQL>
+FURNISHED       NUMBER_OF_APT
+--------------- -------------
+furnished                  44
+Unfurnished                 4
+
+SQL> SQL> SQL>
+4 rows updated.
+
+
+--------Query 9 Determine which employee processed the maintenance requests and how many.
+
+
+FIRST_NAME           NUMBER_OF_REQ
+-------------------- -------------
+Bhushan                         28
+Sahil                           14
+
